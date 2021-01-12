@@ -36,9 +36,15 @@
     * leetcode 哈系表
         * 数组哈系表 
             * `242.有效的字符异位词`
-        * `unordered_map`
+        * `unordered_set`
             * 结果去重不排序 
                 * `342.两个数组的并集`
             * 无限循环 
                 * `202.快乐数`
-* 1.12    
+* 1.12
+    * 哈系表
+        * map
+             * [1.两数之和](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/1.两数之和.cpp)
+             * [454.四树相加2](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/454.四树相加2.cpp)
+        * 数组
+             * [383.赎金信](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/383.赎金信.cpp)
