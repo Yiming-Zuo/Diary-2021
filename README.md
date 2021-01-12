@@ -45,6 +45,6 @@
     * 哈系表
         * map
              * [1.两数之和](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/1.两数之和.cpp)
-             * [454.四树相加2](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/454.四树相加2.cpp)
+             * [454.四数相加2](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/454.四数相加2.cpp)
         * 数组
              * [383.赎金信](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/383.赎金信.cpp)
