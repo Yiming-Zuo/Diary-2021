@@ -22,7 +22,6 @@
         * 快慢指针
             * `27.移除元素`
             * `剑指22.链表中倒数第k个结点`
-            * `376.链表的中间结点结点`
             * `876.链表的中间结点`
             * 无限循环
                 * `141.环形链表1`
@@ -55,3 +54,8 @@
         * 文件I/O
         
 > 1.13 ~ 1.14   出海
+
+* 1.13
+    * 字符串
+        * 双指针[344.反转字符串](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/344.反转字符串.cpp)
+        * [541.反转字符串2](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/541.反转字符串2.cpp)
