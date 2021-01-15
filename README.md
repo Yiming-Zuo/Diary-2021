@@ -55,8 +55,14 @@
         
 > 1.13 ~ 1.14   出海
 
-* 1.13
+* 1.14
     * 字符串
-        * 双指针[344.反转字符串](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/344.反转字符串.cpp)
-        * 固定规律一段一段处理字符串时使用for循环[541.反转字符串2](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/541.反转字符串2.cpp)
-        * 双指针 填充类问题 -> 先扩容，再从后向前填充[剑指05.替换空格](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/剑指05.替换空格.cpp)
+        * 双指针 [344.反转字符串](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/344.反转字符串.cpp)
+        * 固定规律一段一段处理字符串时使用for循环 [541.反转字符串2](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/541.反转字符串2.cpp)
+        * 双指针 填充类问题 -> 先扩容，再从后向前填充 [剑指05.替换空格](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/剑指05.替换空格.cpp)
+* 1.15
+    * 字符串
+        * 先整体反转再局部反转 [151.翻转字符串里的单词](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/151.翻转字符串里的单词.cpp)
+        * 先局部反转再整体反转 [剑指58.2.左旋转字符串](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/剑指58.2.左旋转字符串.cpp)
+    * linux
+        * linux其它系统函数
