@@ -66,3 +66,7 @@
         * 先局部反转再整体反转 [剑指58.2.左旋转字符串](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/剑指58.2.左旋转字符串.cpp)
     * linux
         * linux其它系统函数
+* 1.16
+    * KMP
+        * [28.实现strStr](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/28.实现strStr.cpp)
+        * [459.重复的子字符串](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/459.重复的子字符串.cpp)
