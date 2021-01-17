@@ -14,11 +14,14 @@ public:
         }
         return -1;
     }
+    // 可以看成模式字符串的前缀来匹配模式字符串的过程
+    // j是前缀的尾
+    // i是后缀的尾
     vector<int> getNext(string &s) {
         int _size = s.size();
         vector<int> next(_size, 0);
-        int j = 0;
-        for (int i = 1; i < _size; i++) {
+        int j = 0;  // 前缀
+        for (int i = 1; i < _size; i++) {  // 后缀
             while (j > 0 && s[i] != s[j]) j = next[j-1];
             if (s[i] == s[j]) j++;
             next[i] = j;
