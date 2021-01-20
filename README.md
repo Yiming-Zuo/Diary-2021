@@ -78,3 +78,7 @@
         * [1047.删除字符串中所有相邻重复项](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/1047.删除字符串中所有相邻重复项.cpp)
     * 后缀表达式
         * [150.逆波兰表达式求值](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/150.逆波兰表达式求值.cpp)
+* 1.18
+    * 队列
+        * [239.滑动窗口的最大值](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/239.滑动窗口的最大值.cpp)
+        * [347.前K个高频元素](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/347.前K个高频元素.cpp)
