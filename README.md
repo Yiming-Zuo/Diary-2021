@@ -82,3 +82,16 @@
     * 队列
         * [239.滑动窗口的最大值](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/239.滑动窗口的最大值.cpp)
         * [347.前K个高频元素](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/347.前K个高频元素.cpp)
+
+* 1.24
+  * 堆/优先数列
+    * `headify()` O(logn)
+    * `push()`/`pop()` O(logn)
+    * `build()`  O(n)
+    * `sort()`  O(n*logn)
+  * leetcode
+    * [剑指40.最小的k个数](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/剑指40.最小的k个数.cpp)
+
+* 1.25
+  * 整理堆的应用
+  * 整理堆的leetcode
