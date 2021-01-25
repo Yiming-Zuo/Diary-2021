@@ -1,8 +1,36 @@
 typedef pair<int, int> PAIR;
 class Solution {
 public:
-    // 2 使用multimap key: 次数 value: 值
+    class comparsion {
+    public:
+        // public
+        // 运算符重载
+        bool operator()(const PAIR v1, const PAIR v2) {
+            return v1.second > v2.second;
+        }
+    };
+    // 1.优先队列
+    // 时间复杂度 O(n*logk)
+    // 空间复杂度 O(n)
     vector<int> topKFrequent(vector<int>& nums, int k) {
+        unordered_map<int, int> mp;
+        for (int n : nums) {
+            mp[n]++;
+        }
+        priority_queue<PAIR, vector<PAIR>, comparsion> que;
+        vector<int> vec;
+        for (unordered_map<int, int>::iterator it = mp.begin(); it != mp.end(); it++) {
+            que.push(*it);
+            if (que.size() > k) que.pop();
+        }
+        while (k--) {
+            vec.push_back(que.top().first);
+            que.pop();
+        }
+        return vec;
+    }
+    // 2 使用multimap key: 次数 value: 值
+    vector<int> topKFrequent2(vector<int>& nums, int k) {
         sort(nums.begin(), nums.end());
         multimap<int, int, greater<int>> mp;  // multimap没有重载[]
         vector<int> res;

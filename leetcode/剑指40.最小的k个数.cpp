@@ -1,9 +1,11 @@
 class Solution {
     // 1.手写大顶堆
+    // 时间复杂度 O(n * logn)
     int head[10000];
     int size;
 public:
     Solution() : size(0) {}
+    // 上浮 时间复杂度 O(logn)
     void push(int val) {
         head[++size] = val;
         int i = size;
@@ -17,6 +19,7 @@ public:
         head[1] = head[size--];
         headify(1);
     }
+    // 堆化 时间复杂度 O(logn)
     void headify(int i) {
         while (true) {
             int maxNode = i;

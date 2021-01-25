@@ -91,7 +91,9 @@
     * `sort()`  O(n*logn)
   * leetcode
     * [剑指40.最小的k个数](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/剑指40.最小的k个数.cpp)
-
+  * [215. 数组中的第K个最大元素](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/215. 数组中的第K个最大元素.cpp)
+    * [264.丑数2](https://github.com/Yiming-Zuo/Diary-2021/blob/main/leetcode/264.丑数2.cpp)
+  
 * 1.25
   * 整理堆的应用
   * 整理堆的leetcode
