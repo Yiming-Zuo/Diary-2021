@@ -10,8 +10,8 @@ void *myRead(void *arg) {
     pthread_rwlock_rdlock(&rwlock);
     int count = 1000;
     while (count--) {
-        printf("read num = %d\n", num);
-        usleep(1000);
+        printf("%ld read num = %d\n", pthread_self(), num);
+        usleep(100);
     }
     pthread_rwlock_rdlock(&rwlock);
     return 0;
@@ -22,8 +22,8 @@ void *myWrite(void *arg) {
     int count = 1000;
     while (count--) {
         num++;
-        printf("write num++ = %d\n", num);
-        usleep(100);
+        usleep(1000);
+        printf("%ld write num++ = %d\n", pthread_self(), num);
     }
     pthread_rwlock_unlock(&rwlock);
     return 0;
