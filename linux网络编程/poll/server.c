@@ -48,7 +48,7 @@ int main() {
         }
 
         for (int i = 0; i < nfds; i++) {
-            if (fds[i].revents & POLLIN) {
+            if (fds[i].revents & POLLIN) {  // 按位与
                 // lfd有变化 -> 建立连接，添加进fds中
                 if (i == 0) {
                     struct sockaddr_in sockcli;
