@@ -25,12 +25,14 @@ int main() {
     // 1 write+read
     while (1) {
         char sendBuf[1024];
-        printf("请输入:");
-        scanf("%s", sendBuf);  // 阻塞
+        // printf("请输入:");
+        // scanf("%s", sendBuf);  // 阻塞
+        fgets(sendBuf, sizeof(sendBuf), stdin);
         write(fd, sendBuf, strlen(sendBuf)+1);
         char recvBuf[1024];
-        read(fd, recvBuf, sizeof(recvBuf));  // 阻塞
-        printf("recv buf: %s", recvBuf);
+        int num = read(fd, recvBuf, sizeof(recvBuf));  // 阻塞
+        printf("recv buf: ");
+        write(STDOUT_FILENO, recvBuf, num);
     }
     close(fd);
     return 0;
